@@ -28,11 +28,11 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   drawLeaf(leafx, leafy, leafS,blue); // Draw a green leaf at the center
   }
   else{
-    drawLeaf(leafx, leafy, leafS,Green);
+    drawLeaf(leafx, leafy, leafS,Green); 
   }
 }
 
-function drawLeaf(x, y, leafSize, leafColor) {
+function drawLeaf(x, y, leafSize, leafColor) { // this was reworded from a chat gpt promt. 
   // Draw the main leaf shape
   fill(leafColor);
   noStroke();
